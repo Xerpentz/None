@@ -1,6 +1,4 @@
 var video = document.getElementById("video");
-video.addEventListener("touchstart",capteaza);
-video.addEventListener("mousedown",capteaza);
 //-----------------------------------------------
 function on_cam_success(stream){
 video.srcObject = stream;
